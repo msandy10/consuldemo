@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "git2consul",
+    "url" : "https://github.com/spring-cloud-samples/config-repo.git",
+    "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
+  }]
+}
